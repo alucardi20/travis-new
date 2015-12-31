@@ -1,0 +1,162 @@
+*{
+	box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Containment';
+    src: url('../fonts/containment-solid.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nimbus Sans';
+    src: url('../fonts/NimbusSansNovusT_Black.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+    font-family: "Containment"; 
+    background: white;
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    outline: 0;
+}
+#wrapper{
+    width: 100%;
+    position: relative;
+}
+#button{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    -webkit-transform: translate(-50%,-50%);
+       -moz-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+         -o-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+    background: url(../img/smiley.svg) center;
+    background-size: 100%;
+    cursor: pointer;
+}
+.header{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    font-family: "Nimbus Sans";
+    margin: 20px;
+    color: #ff0000;
+    letter-spacing: 2px;
+    font-size: 36px;
+    text-align: left;
+}
+.pre-order{
+    font-family: "Nimbus Sans";
+    color: white;
+    letter-spacing: 2px;
+    font-size: 36px;
+    text-align: center;
+}
+}
+.feature{
+    height: 200vh;
+    position: relative;
+    overflow: hidden;
+    background: black;
+}
+.feature-image{
+
+    /*background-image: url(../img/cct.jpg);*/
+    height: 100vh;
+    background-attachment: fixed;    
+    display: block;
+    /*height: 500px;*/
+    width: 100%;
+    background-size: auto 75%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    border: 0!important;
+}
+.row {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+    zoom: 1;
+    height: 100vh;
+
+}
+
+.action-figure{
+    width: 65%;
+    min-width: 175px;
+}
+.front{
+    margin-right: -450px;
+}
+.back{
+    margin-left: -450px;
+}
+.content{
+    width: 50%;
+    float: left;
+    /*height: 25vh;*/
+    /*margin-top: -12.5vh;*/
+    background-clip: padding-box;
+    text-align: center;
+    /*padding: 3%;*/
+    /*background-color: white;*/
+}
+.song-div{
+    /*position: fixed;*/
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    /*top: 50%;*/
+    /*-webkit-transform: translate(0%, -50%);*/
+    /*   -moz-transform: translate(0%, -50%);*/
+    /*    -ms-transform: translate(0%, -50%);*/
+    /*     -o-transform: translate(0%, -50%);*/
+    /*        transform: translate(0%, -50%);*/
+}
+.song:first-child{
+        margin-top: -200px;
+}
+.song{
+    display: block;
+    text-align: center;
+    float: left;
+    width: 100%;
+    position: relative;
+    padding: 100px;
+    top: 50%;
+    -webkit-transform: translate(0%, -50%);
+       -moz-transform: translate(0%, -50%);
+        -ms-transform: translate(0%, -50%);
+         -o-transform: translate(0%, -50%);
+            transform: translate(0%, -50%);
+}
+.content .t-shirt {
+    height: 50vh;
+}
+.socials{
+    text-align: center;
+    color: #ff0000;
+    font-size: 24px;
+    margin: 0 0 50vh 0;
+}
+.socials span{
+    margin: 0 20px;
+}
